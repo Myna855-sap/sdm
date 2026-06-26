@@ -49,6 +49,9 @@
     "integration-test-virus-scan": "jest --config jest-integration-virus-scan.config.js",
     "lint": "npx eslint --fix . --no-cache"
   },
+  "overrides": {
+    "https-proxy-agent": "9.1.0"
+  },
   "cds": {
     "server": {
       "body_parser": {
